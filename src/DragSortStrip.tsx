@@ -25,8 +25,6 @@ import { DragOverlay } from "./DragOverlay";
 import { useSharedDrag } from "./sharedDrag";
 import type { DragSortStripProps } from "./types";
 
-const LOG = "[DragSortStrip]";
-
 const AnimatedScrollView = Animated.createAnimatedComponent(ScrollView);
 
 /** Clamp value between min and max (callable from worklet) */
@@ -202,8 +200,8 @@ export function DragSortStrip<T>(props: DragSortStripProps<T>): React.ReactEleme
           // 1. Update Overlay position
           // Overlay follows finger (centered)
           // Delta calculation: current absolute - start absolute
-          const dx = e.absoluteX - shared.startAbsX.value;
-          const dy = e.absoluteY - shared.startAbsY.value;
+          // const dx = e.absoluteX - shared.startAbsX.value;
+          // const dy = e.absoluteY - shared.startAbsY.value;
 
           // Initial center position of the item
           // We want the overlay to stick to the finger.
@@ -388,3 +386,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
+
+export default DragSortStrip;

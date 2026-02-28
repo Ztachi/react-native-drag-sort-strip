@@ -5,7 +5,7 @@ import type { SharedDrag } from "./sharedDrag";
 
 const SPRING_CFG = { mass: 0.4, damping: 18, stiffness: 220 } as const;
 
-interface SortItemProps<T> {
+interface SortItemProps {
   index: number;
   itemKey: string;
   children: React.ReactElement;
@@ -27,7 +27,7 @@ interface SortItemProps<T> {
  * Drag gestures are handled entirely by the Strip-level GestureDetector in DragSortStrip,
  * avoiding issues with Pan gestures nested inside ScrollView getting cancelled or stuck.
  */
-function SortItemInner<T>(props: SortItemProps<T>): React.ReactElement {
+function SortItemInner(props: SortItemProps): React.ReactElement {
   const { index, itemKey, children, shared, itemWidth, itemGap, longPressDuration } = props;
 
   // ── Stable callback ref: avoids useMemo dependency on onPress changes ──

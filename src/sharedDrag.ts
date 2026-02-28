@@ -49,7 +49,6 @@ export function useSharedDrag(): SharedDrag {
   const count = useSharedValue(0);
   const isOverDrop = useSharedValue(false);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   return useMemo(
     () => ({
       fromIdx,
@@ -64,6 +63,18 @@ export function useSharedDrag(): SharedDrag {
       count,
       isOverDrop,
     }),
-    []
+    [
+      fromIdx,
+      toIdx,
+      startAbsX,
+      startAbsY,
+      overlayX,
+      overlayY,
+      stripAbsX,
+      stripAbsY,
+      scrollX,
+      count,
+      isOverDrop,
+    ]
   );
 }

@@ -2,7 +2,7 @@
  * @Author: ztachi(legendryztachi@gmail.com)
  * @Date: 2026-02-28 18:46:46
  * @LastEditors: ztachi(legendryztachi@gmail.com)
- * @LastEditTime: 2026-02-28 18:46:47
+ * @LastEditTime: 2026-02-28 19:02:22
  * @FilePath: /lib/react-native-drag-sort-strip/vite.config.ts
  * @Description: 
  */
