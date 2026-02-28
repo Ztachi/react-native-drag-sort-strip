@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/Ztachi/react-native-drag-sort-strip/compare/v1.2.2...v1.2.3) (2026-02-28)
+
+
+### Bug Fixes
+
+* typecheck error (remove jest) and lint warning ([d5ebcd3](https://github.com/Ztachi/react-native-drag-sort-strip/commit/d5ebcd3e2cefc7e2279ebe207045047db7704f19))
+
 ## [1.2.2](https://github.com/Ztachi/react-native-drag-sort-strip/compare/v1.2.1...v1.2.2) (2026-02-28)
 
 
