@@ -84,8 +84,6 @@ export function DragSortStrip<T>(props: DragSortStripProps<T>): React.ReactEleme
     rootRef.current?.measure((_x, _y, _w, _h, pageX, pageY) => {
       shared.stripAbsX.value = pageX;
       shared.stripAbsY.value = pageY;
-      // eslint-disable-next-line no-console
-      // console.log(LOG, "strip measured:", { pageX, pageY });
     });
   }, [shared.stripAbsX, shared.stripAbsY]);
 
