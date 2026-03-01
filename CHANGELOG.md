@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.2.5](https://github.com/Ztachi/react-native-drag-sort-strip/compare/v1.2.4...v1.2.5) (2026-03-01)
+
 ## [1.2.4](https://github.com/Ztachi/react-native-drag-sort-strip/compare/v1.2.3...v1.2.4) (2026-03-01)
 
 ## [1.2.3](https://github.com/Ztachi/react-native-drag-sort-strip/compare/v1.2.2...v1.2.3) (2026-02-28)
