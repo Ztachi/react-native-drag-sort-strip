@@ -4,8 +4,6 @@ A highly customizable, performant drag-and-sort strip component for React Native
 
 Supports 2D free drag, horizontal sorting, and **drag-to-delete** (drop zone) interactions.
 
-![Demo](https://via.placeholder.com/600x200?text=Demo+Gif+Here)
-
 ## Features
 
 - 🚀 **60 FPS Animations**: Built with `react-native-reanimated` (Shared Values) for zero-latency UI thread performance.
@@ -20,8 +18,6 @@ Install the library and its required peer dependencies:
 
 ```bash
 npm install @ztachi007/react-native-drag-sort-strip react-native-reanimated react-native-gesture-handler
-# or
-yarn add @ztachi007/react-native-drag-sort-strip react-native-reanimated react-native-gesture-handler
 ```
 
 > **Note**: This library depends on `react-native-reanimated` (v3+) and `react-native-gesture-handler` (v2+). If you already have them installed, you can omit them from the command.
