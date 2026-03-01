@@ -16,21 +16,17 @@ Supports 2D free drag, horizontal sorting, and **drag-to-delete** (drop zone) in
 
 ## Installation
 
+Install the library and its required peer dependencies:
+
 ```bash
-npm install @ztachi007/react-native-drag-sort-strip
+npm install @ztachi007/react-native-drag-sort-strip react-native-reanimated react-native-gesture-handler
 # or
-yarn add @ztachi007/react-native-drag-sort-strip
+yarn add @ztachi007/react-native-drag-sort-strip react-native-reanimated react-native-gesture-handler
 ```
 
-### Peer Dependencies
+> **Note**: This library depends on `react-native-reanimated` (v3+) and `react-native-gesture-handler` (v2+). If you already have them installed, you can omit them from the command.
 
-Ensure you have installed the required peer dependencies:
-
-```bash
-npm install react-native-reanimated react-native-gesture-handler
-```
-
-> Don't forget to add `react-native-reanimated/plugin` to your `babel.config.js`.
+> Don't forget to add `react-native-reanimated/plugin` to your `babel.config.js` if you haven't already.
 
 ## Usage
 
